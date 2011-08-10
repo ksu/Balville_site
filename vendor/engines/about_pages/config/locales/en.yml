@@ -1,0 +1,25 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    about_pages:
+      title: About Pages
+  admin:
+    about_pages:
+      actions:
+        create_new: Add New About Page
+        reorder: Reorder About Pages
+        reorder_done: Done Reordering About Pages
+      records:
+        title: About Pages
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no About Pages yet. Click "Add New About Page" to add your first about page.
+      about_page:
+        view_live_html: View this about page live <br/><em>(opens in a new window)</em>
+        edit: Edit this about page
+        delete: Remove this about page forever
+  about_pages:
+    show:
+      other: Other About Pages

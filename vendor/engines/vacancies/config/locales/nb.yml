@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    vacancies:
+      title: Vacancies
+  admin:
+    vacancies:
+      actions:
+        create_new: Lag en ny Vacancy
+        reorder: Endre rekkefølgen på Vacancies
+        reorder_done: Ferdig å endre rekkefølgen Vacancies
+      records:
+        title: Vacancies
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Vacancies enda. Klikk på "Lag en ny Vacancy" for å legge til din første vacancy.
+      vacancy:
+        view_live_html: Vis hvordan denne vacancy ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne vacancy
+        delete: Fjern denne vacancy permanent
+  vacancies:
+    show:
+      other: Andre Vacancies

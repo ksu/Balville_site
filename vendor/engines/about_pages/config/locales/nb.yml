@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    about_pages:
+      title: About Pages
+  admin:
+    about_pages:
+      actions:
+        create_new: Lag en ny About Page
+        reorder: Endre rekkefølgen på About Pages
+        reorder_done: Ferdig å endre rekkefølgen About Pages
+      records:
+        title: About Pages
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen About Pages enda. Klikk på "Lag en ny About Page" for å legge til din første about page.
+      about_page:
+        view_live_html: Vis hvordan denne about page ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne about page
+        delete: Fjern denne about page permanent
+  about_pages:
+    show:
+      other: Andre About Pages

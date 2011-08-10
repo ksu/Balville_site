@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    team_members:
+      title: Team Members
+  admin:
+    team_members:
+      actions:
+        create_new: CREATE NEW Team Member
+        reorder: REORDR Team Members
+        reorder_done: DUN REORDERIN Team Members
+      records:
+        title: Team Members
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Team Members YET. CLICK "CREATE NEW Team Member" 2 ADD UR FURST team member.
+      team_member:
+        view_live_html: VIEW DIS team member LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS team member
+        delete: REMOOV DIS team member FOREVR
+  team_members:
+    show:
+      other: OTHR Team Members

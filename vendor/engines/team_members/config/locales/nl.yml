@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    team_members:
+      title: Team Members
+  admin:
+    team_members:
+      actions:
+        create_new: Maak een nieuwe Team Member
+        reorder: Wijzig de volgorde van de Team Members
+        reorder_done: Klaar met het wijzingen van de volgorde van de Team Members
+      records:
+        title: Team Members
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Team Members. Druk op 'Maak een nieuwe Team Member' om de eerste aan te maken.
+      team_member:
+        view_live_html: Bekijk deze team member op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze team member
+        delete: Verwijder deze team member voor eeuwig
+  team_members:
+    show:
+      other: Andere Team Members

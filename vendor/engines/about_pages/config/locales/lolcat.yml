@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    about_pages:
+      title: About Pages
+  admin:
+    about_pages:
+      actions:
+        create_new: CREATE NEW About Page
+        reorder: REORDR About Pages
+        reorder_done: DUN REORDERIN About Pages
+      records:
+        title: About Pages
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO About Pages YET. CLICK "CREATE NEW About Page" 2 ADD UR FURST about page.
+      about_page:
+        view_live_html: VIEW DIS about page LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS about page
+        delete: REMOOV DIS about page FOREVR
+  about_pages:
+    show:
+      other: OTHR About Pages

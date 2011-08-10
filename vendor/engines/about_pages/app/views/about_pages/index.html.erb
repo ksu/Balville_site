@@ -1,0 +1,11 @@
+<% content_for :body_content_left do %>
+  <ul id="about_pages">
+    <% @about_pages.each do |about_page| %>
+      <li>
+        <%= link_to about_page.title, about_page_path(about_page) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

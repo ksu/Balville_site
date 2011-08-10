@@ -1,0 +1,21 @@
+<div class="container_12 pages">
+<div class="grid_12 alpha omega team">
+	<article>
+		<h1>
+		Creative core
+		</h1>
+  <ul id="team_members">
+    <% @team_members.each do |team_member| %>
+      <li>
+        <%= image_fu team_member.photo, nil %>
+        <h3><%= team_member.name %></h3>
+        <p><%=raw team_member.info %></p>
+      </li>
+    <% end %>
+  </ul>
+
+
+	</article>
+</div>
+</div>
+

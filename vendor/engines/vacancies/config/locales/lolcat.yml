@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    vacancies:
+      title: Vacancies
+  admin:
+    vacancies:
+      actions:
+        create_new: CREATE NEW Vacancy
+        reorder: REORDR Vacancies
+        reorder_done: DUN REORDERIN Vacancies
+      records:
+        title: Vacancies
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Vacancies YET. CLICK "CREATE NEW Vacancy" 2 ADD UR FURST vacancy.
+      vacancy:
+        view_live_html: VIEW DIS vacancy LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS vacancy
+        delete: REMOOV DIS vacancy FOREVR
+  vacancies:
+    show:
+      other: OTHR Vacancies

@@ -1,0 +1,25 @@
+fr:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    vacancies:
+      title: Vacancies
+  admin:
+    vacancies:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Vacancy
+        reorder: Réordonner les Vacancies
+        reorder_done: Fin de réordonnancement des Vacancies
+      records:
+        title: Vacancies
+        sorry_no_results: "Désolé ! Aucun résultat."
+        no_items_yet: 'Il n''y a actuellement aucun(e) Vacancy. Cliquer sur "Créer un(e) nouve(au/l/lle) Vacancy" pour créer votre premi(er/ère) vacancy.'
+      vacancy:
+        view_live_html: Voir ce(t/tte) vacancy <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) vacancy
+        delete: Supprimer définitivement ce(t/tte) vacancy
+  vacancies:
+    show:
+      other: Autres Vacancies

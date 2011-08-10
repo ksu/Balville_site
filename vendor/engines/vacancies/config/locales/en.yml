@@ -1,0 +1,25 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    vacancies:
+      title: Vacancies
+  admin:
+    vacancies:
+      actions:
+        create_new: Add New Vacancy
+        reorder: Reorder Vacancies
+        reorder_done: Done Reordering Vacancies
+      records:
+        title: Vacancies
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Vacancies yet. Click "Add New Vacancy" to add your first vacancy.
+      vacancy:
+        view_live_html: View this vacancy live <br/><em>(opens in a new window)</em>
+        edit: Edit this vacancy
+        delete: Remove this vacancy forever
+  vacancies:
+    show:
+      other: Other Vacancies

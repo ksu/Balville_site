@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    about_pages:
+      title: About Pages
+  admin:
+    about_pages:
+      actions:
+        create_new: Maak een nieuwe About Page
+        reorder: Wijzig de volgorde van de About Pages
+        reorder_done: Klaar met het wijzingen van de volgorde van de About Pages
+      records:
+        title: About Pages
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen About Pages. Druk op 'Maak een nieuwe About Page' om de eerste aan te maken.
+      about_page:
+        view_live_html: Bekijk deze about page op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze about page
+        delete: Verwijder deze about page voor eeuwig
+  about_pages:
+    show:
+      other: Andere About Pages

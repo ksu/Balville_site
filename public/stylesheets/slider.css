@@ -1,0 +1,136 @@
+/* ------ Стили для mobilyslider
+-----------------------------------------------*/
+
+/*#content {
+width:800px;
+margin:100px auto 0;
+}*/
+
+.slider {
+float:left;
+width:940px;
+height:380px;
+position:relative;
+}
+
+.sliderContent {
+float:left;
+width:940px;
+height:380px;
+clear:both;
+position:relative;
+overflow:hidden;
+}
+
+.sliderArrows a {
+display:none;/*!!!*/
+text-indent:-9999px;
+outline:none;
+z-index:50;
+background-image:url(../img/gfx/prev_next.png);
+width:42px;
+height:42px;
+position:absolute;
+top:50%;
+margin-top:-34px;
+}
+
+.prev {
+background-position:0 0;
+left:15px;
+}
+
+.prev:hover {
+background-position:0 -44px;
+}
+
+.next {
+right:15px;
+background-position:-44px 0;
+}
+
+.next:hover {
+background-position:-44px -44px;
+}
+
+.sliderContent .item {
+position:absolute;
+width:940px;
+height:380px;
+}
+
+.sliderBullets a {
+display:block;
+float:left;
+text-indent:-9999px;
+outline:none;
+margin-left:5px;
+width:14px;
+height:14px;
+background: url(../images/slide_button.png) no-repeat left top;
+}
+
+.sliderBullets .active {
+background-position:0 -14px;
+}
+
+.sliderContent a {
+outline:none;
+}
+
+a {
+}
+
+a img {
+border:none;
+}
+
+.sliderBullets {
+position:absolute;
+left: 435px;
+bottom: 40px;
+z-index:50;
+}
+
+/* ------ Стили для mobilyslider - содержимое
+-----------------------------------------------*/
+
+.slider_container{
+  padding-left: 0px;
+  /*padding-top: 30px;*/
+  height: 380px;
+  position: relative;
+}
+
+.slider_container.slide_img0{
+  background: url(../img/th1/about.png) no-repeat 100px 0;
+}
+
+.slider_container.slide_img1{
+  background: url(../img/th1/soft1.png) no-repeat 15px 0;
+}
+
+.slider_container.slide_img2{
+  background: url(../img/th1/rrr.png) no-repeat 20px 40px;
+}
+
+.slider_container.slide_img3{
+  background: url(../img/th1/slide_img3.png) no-repeat 15px 40px;
+}
+
+.slider_container h1{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-bottom: 15px;
+}
+
+.slider_container p{
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.slider_container a{
+  color: #444;
+}
+

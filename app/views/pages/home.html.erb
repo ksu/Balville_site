@@ -1,0 +1,67 @@
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rosario">
+<link rel="stylesheet" href="../stylesheets/slider.css">
+<script src="../javascripts/jquery.js"></script>
+<script src="../javascripts/mobilyslider.js"></script>
+<script>
+$(function(){
+
+	$('.slider1').mobilyslider({
+      content: '.sliderContent', 		// класс для контейнера слайдера
+      children: 'div', 					// селектор слайдов
+      transition: 'fade', 			// эффект перехода между слайдами: horizontal, vertical, fade
+      animationSpeed: 100, 				// скорость перехода между слайдами в ms
+      autoplay: true,					// включение автопроигрывания
+      autoplaySpeed: 20000, 				// время показа слайда в ms
+      pauseOnHover: true, 				// остановка автопроигрывания при наведении курсора мыши
+      bullets: true, 					// генерация указателя слайдов (true/false, класс: sliderBullets)
+      arrows: true, 						// генерация стрелок вперед/назад (true/false, класс: sliderArrows)
+      arrowsHide: false, 					// выводим стрелки только при наведении курсора мыши
+      prev: 'prev', 						// имя класса для кнопки назад
+      next: 'next', 						// имя класса для кнопки вперед
+      animationStart: function(){}, 		// возвратная функция, которая вызывается при запуске перехода между слайдами
+      animationComplete: function(){} 	// возвратная функция, которая вызывается после завершения перехода между слайдами
+  });
+
+});
+</script>
+
+<div class="container_12">
+	
+	
+	<div class='loader' style='display:none'><img src='spin.gif'></div>
+	
+	<div class="slider slider1">
+		<div class="sliderContent about_pages" id="about_pages">
+			    <% @about_pages.each do |about_page| %>
+			       <div class="item" style="display: none;">
+			         <div class="slider_container">
+			            <div class="body">
+
+								      <%= image_fu about_page.illustration, nil %>
+							        <h1><%= about_page.title %></h1>
+							        <%=raw about_page.body %>
+
+			            </div>
+			         </div>
+			      </div>
+			    <% end %>			
+			</div>
+  </div>
+<div class="clear"></div>
+
+
+<div id="projects">
+    <% @projects.each do |project, index| %>
+      <div class="description_direction projects grid_4 <% if [0, 3, 6].include?(index) then %>alpha<% end %> <% if [2, 5, 7].include?(index) then %>omega<% end %>">
+	      <a href="<%=project_path(project)%>" title="<%= project.title1 %>">
+        <%= image_fu project.illustration, nil %>
+        </a>
+      </div>
+    <% end %>
+  </div>
+
+
+
+
+</div>
+
