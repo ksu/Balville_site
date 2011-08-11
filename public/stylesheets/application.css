@@ -483,7 +483,6 @@ ul, li{
   margin: 0;
   list-style: none;
 }
-
 .left, .left_p{float: left;}
 .right{float: right;}
 .left_p p{float: left;}
